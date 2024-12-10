@@ -1,0 +1,101 @@
+.dashboard {
+  padding: 20px;
+  text-align: center;
+  background-color: #f4f4f9;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.dashboard-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.dashboard-card {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  width: 150px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.dashboard-card:hover {
+  background-color: #e0f7fa;
+}
+
+.dashboard-card h3 {
+  font-size: 1.2em;
+  color: #00796b;
+}
+
+.dashboard-card p {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  width: 80%;
+  max-width: 500px;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.modal-content h3 {
+  margin-top: 0;
+}
+
+.modal-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.modal-content li {
+  margin-bottom: 15px;
+}
+
+.modal-content li h4 {
+  margin: 0 0 5px;
+  color: #333;
+}
+
+.modal-content li p {
+  margin: 0;
+  color: #666;
+}
+
+button {
+  background-color: #00796b;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #004d40;
+}

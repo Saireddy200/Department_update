@@ -1,0 +1,38 @@
+/* src/pages/Help.css */
+
+.help-page {
+    padding: 20px;
+    color: #333;
+    background-color: #f4f4f9;
+  }
+  
+  .help-page h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #00796b;
+  }
+  
+  .help-page section {
+    margin-bottom: 20px;
+  }
+  
+  .help-page h3 {
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .help-page p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #666;
+  }
+  
+  .help-page a {
+    color: #00796b;
+    text-decoration: underline;
+  }
+  
+  .help-page a:hover {
+    color: #004d40;
+  }
+  

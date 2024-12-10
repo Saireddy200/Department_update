@@ -1,0 +1,80 @@
+.find-scholarship {
+  padding: 20px;
+  color: #fff;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: #000000;
+}
+
+.search-bar {
+  display: block;
+  margin: 0 auto 20px;
+  padding: 10px;
+  width: 80%;
+  max-width: 500px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.scholarship-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.scholarship-card {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  color: #f2f2f2;
+}
+
+.scholarship-card h3 {
+  margin: 0 0 10px;
+  color: #ffd700;
+}
+
+.scholarship-card p {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.scholarship-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.apply-button, .details-button {
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Apply Button Styles */
+.apply-button {
+  background-color: #5dec58;
+  color: #fff;
+}
+
+.apply-button:hover {
+  background-color: #218838;
+}
+
+/* Updated Details Button Styles */
+.details-button {
+  background-color: #dbbf72;  /* Bright blue for high visibility */
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.details-button:hover {
+  background-color: #e7cd58;  /* Darker shade on hover */
+}
